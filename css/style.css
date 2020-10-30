@@ -464,7 +464,7 @@ nav li {
 */
 .home-body {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding-top: 100px;
   padding-bottom: 140px;
 }
@@ -581,10 +581,27 @@ nav li {
   }
 }
 
+.home-hero {
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .home-hero {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .home-hero {
+    margin-left: 40px;
+  }
+}
+
 @media screen and (max-width: 777px) {
   .home-hero {
     margin-top: 60px;
     max-width: 100%;
+    margin-left: 0;
   }
 }
 
