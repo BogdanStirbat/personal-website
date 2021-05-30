@@ -11,18 +11,157 @@
 </head>
 <body>
   <div class="content">
-    <nav class="centered">
-      <div class="home-page-link">
-        <a href="index.html">Bogdan Stirbat</a>
+
+    <div id="first-background">
+
+      <nav class="centered">
+        <div class="home-page-link">
+          <a href="index.html">Bogdan Stirbat</a>
+        </div>
+  
+        <ul class="navigation-menu">
+          <li class="navigation-link"><a href="index.html">Home</a></li>
+          <li class="navigation-link"><a href="#about">About</a></li>
+          <li class="navigation-link"><a href="#portofolio">Portofolio</a></li>
+          <li class="navigation-link"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="home-body centered">
+        <div class="home-intro">
+          <h1>Hi, I'm Bogdan,</h1>
+          <p>software engineer, Shopify developer.</p>
+        </div>
+  
+        <div class="home-hero">
+          <div class="home-hero-container">
+            <img src="img/home-hero.svg" alt="Programmer working" >
+          </div>
+        </div>
       </div>
 
-      <ul class="navigation-menu">
-        <li class="navigation-link"><a href="index.html" class="active">Home</a></li>
-        <li class="navigation-link"><a href="about.html">About</a></li>
-        <li class="navigation-link"><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    </div>
+
+    <div id="about" class="centered">
+
+      <div class="title-section">
+        <p>About</p>
+      </div>
+
+      <div class="about-qualities">
+
+        <section>
+          <div class="img-container">
+            <img src="img/about_software_engineer.svg" alt="Solving complex problem">
+          </div>
+          <p>Software engineer</p>
+        </section>
+
+        <section>
+          <div class="img-container">
+            <img src="img/about_shopify_developer.svg" alt="Creating a store">
+          </div>
+          <p>Shopify developer</p>
+        </section>
+
+        <section>
+          <div class="img-container">
+            <img src="img/about_fast_learner.svg" alt="Learning new technologies">
+          </div>
+          <p>Fast learner</p>
+        </section>
+      </div>
+
+      <div class="more-info">
+        <p>A more detailed page about me can be found <a href="about.html">here</a>.</p>
+      </div>
+    </div>
+
+    <div id="portofolio">
+
+      <div class="centered">
+
+        <div class="title-section">
+          <p>Portofolio</p>
+        </div>
+
+        <div class="portofolio-elements">
+
+          <section>
+            <div class="portofolio-image">
+              <picture>
+                <source srcset="img/portofolio_1.png" media="(max-width: 400px)">
+                <img src="img/portofolio_1.png" alt="Portofolio image 1" >
+              </picture>
+            </div>
+
+            <div class="portofolio-description">
+              <article>
+                <p>This is a demo online store selling watches.</p>
+                <p>This store was created using Shopify.</p>
+              </article>
+
+              <article>
+                <p>Store URL: <a href="https://demo-clock-store.myshopify.com">here</a>.</p>
+                <p>Store password: sheuga</p>
+              </article>
+            </div>
+          </section>
+
+          <section>
+            <div class="portofolio-image">
+              <picture>
+                <source srcset="img/portofolio_2.png" media="(max-width: 400px)">
+                <img src="img/portofolio_2.png" alt="Portofolio image 2" >
+              </picture>
+            </div>
+
+            <div class="portofolio-description">
+              <article>
+                <p>This is a demo online store selling candles.</p>
+                <p>This store was created using React, and Shopify as a headless CMS.</p>
+                <p>This project was inspired from <a href="https://www.udemy.com/course/build-a-custom-shopify-storefront-using-react-headless-cms/">this</a> Udemy course.</p>
+              </article>
+
+              <article>
+                <p>Store URL: <a href="https://romantic-khorana-32f758.netlify.app/">here</a>.</p>
+                <p>Store password (you need it if you want to check the checkout page): rtaisk</p>
+              </article>
+            </div>
+          </section>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="contact" class="centered">
+
+      <div class="title-section">
+        <p>Contact</p>
+      </div>
+
+      <div class="contact-body">
+
+        <section>
+          <p>Github profile: <a href="https://github.com/bogdanstirbat">here</a>.</p>
+          <p>Linkedin profile: <a href="https://www.linkedin.com/in/bogdan-stirbat-486a286a/">here</a>.</p>
+          <p>Email address: <span class="email-address">hi@bogdanstirbat.com</span></p>
+        </section>
+
+        <section>
+          <div class="contact-picture">
+            <picture>
+              <source srcset="img/home-hero-small.jpg" media="(max-width: 400px)">
+              <img src="img/home-hero.jpg" alt="Author's image" >
+            </picture>
+          </div>
+        </section>
+      </div>
+    </div>
     
+
+    <!--
     <div class="home-body centered">
 
       <div class="home-intro">
@@ -45,6 +184,8 @@
     </div>
 
     <div class="home-body-background"></div>
+
+  -->
   </div>
 </body>
 </html>
